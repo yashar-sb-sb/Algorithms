@@ -1,4 +1,4 @@
-randomizedMid(a, **args)
+def randomizedMid(a, **args)
 '''
 a has to be a list
 args could have l or r or both
@@ -9,7 +9,7 @@ if both are presented the operation will be performed on range [l:r]
 '''
 
 
-deterministicMid(a, **args)
+def deterministicMid(a, **args)
 '''
 a has to be a list
 args could have l or r or both
